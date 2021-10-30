@@ -22,12 +22,12 @@ const content = ['első', 'második', 'harmadik'];
 const content = ['első', 'második', 'harmadik'];
 
 const generateList = function (list) {
-    let kimenet = "<ul>";
+    let listHTML = "<ul>";
     list.forEach(item => {
-        kimenet += "<li>"+item+"</li>";
+        listHTML += "<li>"+item+"</li>";
     });
-    kimenet +="</ul>";
-    console.log(kimenet);
+    listHTML +="</ul>";
+    console.log(listHTML);
 }
 
 console.log(generateList(content));
