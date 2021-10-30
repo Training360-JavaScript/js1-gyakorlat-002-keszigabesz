@@ -26,7 +26,7 @@ const generateList = function (list) {
     list.forEach(item => {
         listHTML += "<li>"+item+"</li>";
     });
-    listHTML +="</ul>";
+    return listHTML +="</ul>";
     console.log(listHTML);
 }
 

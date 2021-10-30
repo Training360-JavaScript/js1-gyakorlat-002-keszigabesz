@@ -25,4 +25,3 @@ const checker = (arrayToCheck, numberToCheck) => ({
     allElementsAreNumbers: arrayToCheck.every(item => typeof item == 'number'),
     someElementsAreNumbers: arrayToCheck.some(item => typeof item == 'number')
 });
-
